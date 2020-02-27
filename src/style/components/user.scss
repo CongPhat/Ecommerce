@@ -1,0 +1,126 @@
+.user {
+    padding: 50px 0;
+    background: #F2F2F2;
+    &__main {
+
+    }
+    &__title {
+        margin-bottom: 20px;
+        h4 {
+            font-size: 18px;
+        }
+    }
+    &__items {
+        background: white;
+        padding: 30px 20px;
+    }
+    &__infor {
+        padding: 10px 0;
+        &--left {
+            span {
+                color: #4a4a4a;
+            }
+        }
+        &--right {
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+    &__invoice {
+        padding: 0;
+    }
+    &__des {
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+}
+.menu {
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    &__avata {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        svg {
+            font-size: 45px;
+        }
+    }
+    &__name {
+        span {
+            color: #4a4a4a;
+            font-size: 14px;
+        }
+        h6 {
+            margin-top: 5px;
+            font-size: 20px;
+            color: #000;
+        }
+    }
+    &__list {
+        ul {
+            padding: 0;
+            li {
+                list-style: none;
+                padding: 10px 0;
+                a {
+                    color: #4a4a4a;
+                    display: block;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    span {
+                        font-size: 15px;
+                        color: black;
+                    }
+                }
+                &:hover {
+                    background: #ececec;
+                }
+            }
+        }
+        &--icon {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+            svg {
+                width: 100% !important;
+                color: #999;
+            }
+        }
+    }
+}
+
+.process {
+    color: black;
+}
+.deli {
+    color: #0069d9;
+}
+.succ {
+    color: #009900;
+}
+.failed {
+    color: red;
+}
+
+.invoice__table {
+}
+
+.invoice__total {
+    color: black;
+    letter-spacing: 0.5px;
+}
+.link__invoice {
+    color: #0069d9 !important;
+    &:hover {
+        color: #003399 !important;
+    }
+}

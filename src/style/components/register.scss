@@ -1,0 +1,51 @@
+.register {
+
+    margin-top: 50px;
+    background: white;
+    &__title {
+        padding: 10px 0;
+        background: black;
+        text-align: center;
+        h5 {
+            text-transform: uppercase;
+            font-size: 20px;
+            color: white;
+            letter-spacing: 1.5px;
+        }
+    }
+    &__main {
+        width: 60%;
+        margin: auto;
+    }
+    form {
+        padding: 25px 0;
+    }
+    &__items {
+        margin-bottom: 20px;
+        label {
+            color: #788188;
+            display: block;
+        }
+        input {
+            width: 100%;
+            padding: 5px 15px; 
+            border: 1px solid lightgray;
+            &:focus {
+                outline: none;
+                border: 1px solid black;
+            }
+        }
+    }
+}
+.btn--full {
+    width: 100%;
+}
+.error {
+    margin-top: 5px;
+    text-transform: lowercase;
+    color: red;
+    font-weight: 600;
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}

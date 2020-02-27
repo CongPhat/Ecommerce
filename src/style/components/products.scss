@@ -1,0 +1,128 @@
+.products {
+    margin-top: 50px;
+    &__main {
+        &--part {
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
+        }
+        &__infor {
+            &--title {
+                border-bottom: 1px solid #e5e5e5;
+                padding-bottom: 10px;
+                h1 {
+                    font-size: 24px;
+                    margin-bottom: 10px!important;
+                    font-weight: 600;
+                    color: #4d5959;
+                    letter-spacing: 1px;
+                }
+                span {
+                    font-size: 26px;
+                    color: #d01345;
+                    font-weight: 600;
+                }
+            }
+            &--des {
+                padding: 15px 0;
+                h6 {
+                    color: #4d5959;
+                    letter-spacing: 2px;
+                    font-weight: 300;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    color: #788188;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        &__addcart {
+            display: flex;
+            input {
+                border: 1px solid #999;
+                width: 60px;
+                height: 40px;
+                text-align: center;
+                margin-right: 20px;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        &__error {
+            margin-top: 5px;
+            span {
+                color: red;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.btn--default {
+    background-color: #023566;
+    color: #ffffff;
+    border: none;
+    height: auto;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 0 20px;
+    letter-spacing: 3px;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.products__related {
+    margin-top: 100px;
+    &--title {
+        text-align: center;
+        margin-bottom: 20px;
+        h6 {
+            font-weight: 700;
+            font-size: 20px;
+            color: #4d5959;
+        }
+    }
+    &__main {
+
+    }
+    &__items {
+        a:hover {
+            text-decoration: none;
+        }
+        &__main {
+            overflow: hidden;
+            img {
+                width: 100%;
+                transition: 0.5s;
+            }
+        }
+        &--infor {
+            text-align: center;
+            margin-top: 10px;
+            h6 {
+                color: #4d5959;
+                font-size: 15px;
+                font-weight: 700;
+                &:hover {
+                    color: #023566;
+                }
+            }
+            span {
+                color: #4d5959;
+                font-size: 14px;
+            }
+        }
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

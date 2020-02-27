@@ -1,0 +1,51 @@
+.shop {
+    &__title {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        h5 {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 700;
+            color: #023566;
+            margin-bottom: 30px;
+        }
+    }
+    &__main {
+        img {
+            width: 100%;
+            transition: 0.3s;
+        }
+    }
+    &__items {
+        overflow: hidden;
+        margin-bottom: 30px;
+        a:hover {
+            text-decoration: none;
+        }
+        &__main {
+            overflow: hidden;
+        }
+        &--infor {
+            text-align: center;
+            margin-top: 20px;
+            h6 {
+                color: #4d5959;
+                font-size: 15px;
+                font-weight: 700;
+                &:hover {
+                    color: #023566;
+                }
+            }
+            span {
+                color: #4d5959;
+                font-size: 14px;
+            }
+        }
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
